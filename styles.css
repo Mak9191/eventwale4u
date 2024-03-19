@@ -134,10 +134,13 @@ body {
   width: 260px;
   height: 60px;
 }
+::-webkit-scrollbar {
+  display: none;
+}
+
 
 nav {
   position: fixed;
-    max-width: var(--max-width);
     margin: auto;
     z-index: 9;
     height: 67px;
@@ -385,7 +388,7 @@ nav {
   }
 
   .nav__action__btn {
-    justify-content: flex-end;
+    justify-content: center;
     display: flex;
     flex: 1;
   }
